@@ -75,6 +75,7 @@ Installations commands- In Short
 npm create-react-app <app-name>
 npm install react-router-dom
 
+npm install reselect
 npm install firebase
 npm install node-sass
 npm install node-sass --save
