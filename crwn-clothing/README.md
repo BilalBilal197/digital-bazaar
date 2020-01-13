@@ -83,3 +83,16 @@ npm start
 
 Redux:
 npm install redux redux-logger react-redux
+npm install redux-persist
+
+
+
+notes: 
+
+redux persist library for local storage of redux state - allows our browser to cache redux store
+
+redux selectors: A selector is a function that accepts Redux state as an argument and returns data that is derived from that state. Selectors can provide performance optimizations to your application and can also help you encapsulate your global state tree
+
+redux reselect: uses memoization selectors to make process quick
+
+local/session storage: session storage persis until session last and we do not close the window or browse. local storage persists even on session closing until its cleared
