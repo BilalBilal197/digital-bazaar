@@ -80,10 +80,12 @@ npm install firebase
 npm install node-sass
 npm install node-sass --save
 npm start
+npm install react-stripe-checkout
 
 Redux:
 npm install redux redux-logger react-redux
 npm install redux-persist
+
 
 
 
