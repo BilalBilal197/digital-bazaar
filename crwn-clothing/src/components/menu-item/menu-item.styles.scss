@@ -23,16 +23,16 @@
   }
 
   &.large {
-    height: 380px;
+    height: 240px;
   }
 
-  &:first-child {
-    margin-right: 7.5px;
-  }
+  // &:first-child {
+  //   margin-right: 7.5px;
+  // }
 
-  &:last-child {
-    margin-left: 7.5px;
-  }
+  // &:last-child {
+  //   margin-left: 7.5px;
+  // }
 
   .background-image {
     width: 100%;
