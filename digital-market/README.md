@@ -87,6 +87,7 @@ npm install redux redux-logger react-redux
 npm install redux-persist
 
 
+npm install react-router-dom reselect firebase node-sass react-stripe-checkout redux redux-logger react-redux redux-persist
 
 
 notes: 
