@@ -82,6 +82,7 @@ npm install node-sass --save
 npm start
 npm install react-stripe-checkout
 
+
 Redux:
 npm install redux redux-logger react-redux
 npm install redux-persist
@@ -99,3 +100,5 @@ redux selectors: A selector is a function that accepts Redux state as an argumen
 redux reselect: uses memoization selectors to make process quick
 
 local/session storage: session storage persis until session last and we do not close the window or browse. local storage persists even on session closing until its cleared
+
+##test
