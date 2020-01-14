@@ -1,8 +1,8 @@
 const SHOP_DATA = {
-  hats: {
+  computers: {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Computers & Accessories',
+    routeName: 'computers',
     items: [
       {
         id: 1,
@@ -60,10 +60,10 @@ const SHOP_DATA = {
       }
     ]
   },
-  sneakers: {
+  tvs: {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'TV & Video',
+    routeName: 'tvs',
     items: [
       {
         id: 10,
@@ -115,10 +115,10 @@ const SHOP_DATA = {
       }
     ]
   },
-  jackets: {
+  phones: {
     id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
+    title: 'Cell Phones & Accessories',
+    routeName: 'phones',
     items: [
       {
         id: 18,
@@ -152,10 +152,10 @@ const SHOP_DATA = {
       }
     ]
   },
-  womens: {
+  photographs: {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'Photography & Videography',
+    routeName: 'photographs',
     items: [
       {
         id: 23,
@@ -201,43 +201,239 @@ const SHOP_DATA = {
       }
     ]
   },
-  mens: {
+  audios: {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'Home Audio',
+    routeName: 'audios',
     items: [
       {
         id: 30,
+        name: 'Blue Tanktop',
+        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        price: 25
+      },
+      {
+        id: 31,
+        name: 'Floral Blouse',
+        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+        price: 20
+      },
+      {
+        id: 32,
+        name: 'Floral Dress',
+        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+        price: 80
+      },
+      {
+        id: 33,
+        name: 'Red Dots Dress',
+        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+        price: 80
+      },
+      {
+        id: 34,
+        name: 'Striped Sweater',
+        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+        price: 45
+      },
+      {
+        id: 35,
+        name: 'Yellow Track Suit',
+        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+        price: 135
+      },
+      {
+        id: 36,
+        name: 'White Blouse',
+        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
+        price: 20
+      }
+    ]
+  },
+  headphones: {
+    id: 6,
+    title: 'Headphones',
+    routeName: 'headphones',
+    items: [
+      {
+        id: 37,
+        name: 'Blue Tanktop',
+        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        price: 25
+      },
+      {
+        id: 38,
+        name: 'Floral Blouse',
+        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+        price: 20
+      },
+      {
+        id: 39,
+        name: 'Floral Dress',
+        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+        price: 80
+      },
+      {
+        id: 40,
+        name: 'Red Dots Dress',
+        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+        price: 80
+      },
+      {
+        id: 41,
+        name: 'Striped Sweater',
+        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+        price: 45
+      },
+      {
+        id: 42,
+        name: 'Yellow Track Suit',
+        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+        price: 135
+      },
+      {
+        id: 43,
+        name: 'White Blouse',
+        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
+        price: 20
+      }
+    ]
+  },
+  musicals: {
+    id: 7,
+    title: 'Musical Instruments',
+    routeName: 'musicals',
+    items: [
+      {
+        id: 44,
+        name: 'Blue Tanktop',
+        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        price: 25
+      },
+      {
+        id: 45,
+        name: 'Floral Blouse',
+        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+        price: 20
+      },
+      {
+        id: 46,
+        name: 'Floral Dress',
+        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+        price: 80
+      },
+      {
+        id: 47,
+        name: 'Red Dots Dress',
+        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+        price: 80
+      },
+      {
+        id: 48,
+        name: 'Striped Sweater',
+        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+        price: 45
+      },
+      {
+        id: 49,
+        name: 'Yellow Track Suit',
+        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+        price: 135
+      },
+      {
+        id: 50,
+        name: 'White Blouse',
+        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
+        price: 20
+      }
+    ]
+  },
+  games: {
+    id: 8,
+    title: 'Video Games',
+    routeName: 'games',
+    items: [
+      {
+        id: 51,
+        name: 'Blue Tanktop',
+        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        price: 25
+      },
+      {
+        id: 52,
+        name: 'Floral Blouse',
+        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+        price: 20
+      },
+      {
+        id: 53,
+        name: 'Floral Dress',
+        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+        price: 80
+      },
+      {
+        id: 54,
+        name: 'Red Dots Dress',
+        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+        price: 80
+      },
+      {
+        id: 55,
+        name: 'Striped Sweater',
+        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+        price: 45
+      },
+      {
+        id: 56,
+        name: 'Yellow Track Suit',
+        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+        price: 135
+      },
+      {
+        id: 57,
+        name: 'White Blouse',
+        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
+        price: 20
+      }
+    ]
+  },
+  electronics: {
+    id: 9,
+    title: 'Office Electronics',
+    routeName: 'electronics',
+    items: [
+      {
+        id: 58,
         name: 'Camo Down Vest',
         imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
         price: 325
       },
       {
-        id: 31,
+        id: 59,
         name: 'Floral T-shirt',
         imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
         price: 20
       },
       {
-        id: 32,
+        id: 60,
         name: 'Black & White Longsleeve',
         imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
         price: 25
       },
       {
-        id: 33,
+        id: 61,
         name: 'Pink T-shirt',
         imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
         price: 25
       },
       {
-        id: 34,
+        id: 62,
         name: 'Jean Long Sleeve',
         imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
         price: 40
       },
       {
-        id: 35,
+        id: 63,
         name: 'Burgundy T-shirt',
         imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
         price: 25

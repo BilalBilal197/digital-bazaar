@@ -4,61 +4,55 @@ const INITIAL_STATE = {
       title: 'Computers & Accessories',
       imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
       id: 1,
-      linkUrl: 'shop/hats'
+      linkUrl: 'shop/computers'
     },
     {
-      title: 'TV & Videos',
+      title: 'TV & Video',
       imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
       id: 2,
-      linkUrl: 'shop/jackets'
+      linkUrl: 'shop/tvs'
     },
     {
       title: 'Cell Phones & Accessories',
       imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
       id: 3,
-      linkUrl: 'shop/sneakers'
+      linkUrl: 'shop/phones'
     },
     {
       title: 'Photography & Videography',
       imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
-      size: 'large',
       id: 4,
-      linkUrl: 'shop/womens'
+      linkUrl: 'shop/photographs'
     },
     {
       title: 'Home Audio',
       imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-      size: 'large',
       id: 5,
-      linkUrl: 'shop/mens'
+      linkUrl: 'shop/audios'
     },
     {
       title: 'Headphones',
       imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-      size: 'large',
       id: 6,
-      linkUrl: 'shop/mens'
-    },
-    {
-      title: 'Office Electronics',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-      size: 'large',
-      id: 7,
-      linkUrl: 'shop/mens'
+      linkUrl: 'shop/headphones'
     },
     {
       title: 'Musical Instruments',
       imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-      size: 'large',
-      id: 8,
-      linkUrl: 'shop/mens'
+      id: 7,
+      linkUrl: 'shop/musicals'
     },
     {
       title: 'Video Games',
       imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-      size: 'large',
+      id: 8,
+      linkUrl: 'shop/games'
+    },
+    {
+      title: 'Office Electronics',
+      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
       id: 9,
-      linkUrl: 'shop/mens'
+      linkUrl: 'shop/electronics'
     }
 
   ]
