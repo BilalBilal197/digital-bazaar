@@ -1,5 +1,7 @@
 body {
-  font-family: 'Open Sans Condensed';
+  /* font-family: 'Open Sans Condensed'; */
+  background-color: rgb(39, 197, 224);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 20px 40px;
 }
 
