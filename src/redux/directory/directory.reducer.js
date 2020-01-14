@@ -1,63 +1,63 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: 'action',
+      title: 'Computers & Accessories',
       imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
       id: 1,
       linkUrl: 'shop/hats'
     },
     {
-      title: 'adventure',
+      title: 'TV & Videos',
       imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
       id: 2,
       linkUrl: 'shop/jackets'
     },
     {
-      title: 'indie',
+      title: 'Cell Phones & Accessories',
       imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
       id: 3,
       linkUrl: 'shop/sneakers'
     },
     {
-      title: 'racing',
+      title: 'Photography & Videography',
       imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
       size: 'large',
       id: 4,
       linkUrl: 'shop/womens'
     },
     {
-      title: 'RPG',
+      title: 'Home Audio',
       imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
       size: 'large',
       id: 5,
       linkUrl: 'shop/mens'
     },
     {
-      title: 'sports',
+      title: 'Headphones',
       imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
       size: 'large',
-      id: 5,
+      id: 6,
       linkUrl: 'shop/mens'
     },
     {
-      title: 'strategy',
+      title: 'Office Electronics',
       imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
       size: 'large',
-      id: 5,
+      id: 7,
       linkUrl: 'shop/mens'
     },
     {
-      title: 'casual',
+      title: 'Musical Instruments',
       imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
       size: 'large',
-      id: 5,
+      id: 8,
       linkUrl: 'shop/mens'
     },
     {
-      title: 'simulation',
+      title: 'Video Games',
       imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
       size: 'large',
-      id: 5,
+      id: 9,
       linkUrl: 'shop/mens'
     }
 
