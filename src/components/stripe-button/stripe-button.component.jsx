@@ -13,10 +13,11 @@ const onToken = toke => {
   return (
     <StripeCheckout 
       label = 'Pay Now'
-      name='CRWN Clothing Ltd.'
+      name='Transaction'
       billingAddress
       shippingAddress
-      image='https://svgshare.com/i/CUz.svg'
+      image=''
+      // image='https://svgshare.com/i/CUz.svg'
       description={`Your total is $${price}`}
       amount={priceForStripe}
       panelLabel='Pay Now'
